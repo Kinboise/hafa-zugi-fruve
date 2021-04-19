@@ -1,667 +1,160 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" >
 
-<head>
-  <meta charset="UTF-8" />
+<title>文章归档 | fipo fruje a Kinbvise | 臤徘斯随笔一写</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="keywords" content="">
-<meta name="description" content="&#34;Kinboise&#34; hafa-zugike">
-<meta name="theme-color" content="">
-<title>fipo fruje a Kinbvise | 臤徘斯随笔一写</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1618832734658">
-<link rel="stylesheet" href="/styles/main.css">
-<link rel="stylesheet" href="/media/css/pisces.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<link rel="stylesheet" href="/media/fonts/font-awesome.css">
-<link
-  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
-  rel="stylesheet" type="text/css">
-
-<link href="/media/hljs/styles/github.css"
-  rel="stylesheet">
-
-<script src="/media/hljs/highlight.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
-
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://kinboise.github.io/fruje/favicon.ico?v=1618833265388">
+<link rel="stylesheet" href="https://kinboise.github.io/fruje/styles/main.css">
 
 
 
-  <meta name="description" content="&#34;Kinboise&#34; hafa-zugike">
-</head>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-<body>
-  <div class="head-top-line"></div>
-  <div class="header-box">
-    
-<div class="pisces">
-  <header class="header  ">
-    <div class="blog-header box-shadow-wrapper bg-color " id="header">
-      <div class="nav-toggle" id="nav_toggle">
-        <div class="toggle-box">
-          <div class="line line-top"></div>
-          <div class="line line-center"></div>
-          <div class="line line-bottom"></div>
-        </div>
+
+
+    <meta name="description" content="&#34;Kinboise&#34; hafa-zugike">
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://kinboise.github.io/fruje">
+        <img src="https://kinboise.github.io/fruje/images/avatar.png?v=1618833265388" class="site-logo">
+        <h1 class="site-title">fipo fruje a Kinbvise | 臤徘斯随笔一写</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
-      <div class="site-meta">       
-        <div class="site-title">
-          
-            <a href="/" class="brand">
-              <span>fipo fruje a Kinbvise | 臤徘斯随笔一写</span>
-            </a>  
-          
-        </div>
+    </div>
+    <div>
+      
         
-      </div>
-      <nav class="site-nav" id="site_nav">
-        <ul id="nav_ul">
-          
-            
-            
-            <li class="nav-item ">
-              
-              
-                <a href="/" target="_self">
-                  <i class="fa fa-home"></i> 首页
-                </a>
-              
-            </li>
-          
-            
-            
-            <li class="nav-item nav-item-active">
-              
-              
-                <a href="/archives/" target="_self">
-                  <i class="fa fa-archive"></i> 归档
-                </a>
-              
-            </li>
-          
-            
-            
-            <li class="nav-item ">
-              
-              
-                <a href="/tags/" target="_self">
-                  <i class="fa fa-tags"></i> 标签
-                </a>
-              
-            </li>
-          
-            
-            
-            <li class="nav-item ">
-              
-              
-                <a href="/post/about/" target="_self">
-                  <i class="fa fa-user"></i> 关于
-                </a>
-              
-            </li>
-          
-          
-        </ul>
-      </nav>
-    </div>
-  </header>
-</div>
-
-<script type="text/javascript"> 
- 
-  let showNav = true;
-
-  let navToggle = document.querySelector('#nav_toggle'),
-  siteNav = document.querySelector('#site_nav');
-  
-  function navClick() {
-    let sideBar = document.querySelector('.sidebar');
-    let navUl = document.querySelector('#nav_ul');
-    navToggle.classList.toggle('nav-toggle-active');
-    siteNav.classList.toggle('nav-menu-active');
-    if (siteNav.classList.contains('nav-menu-active')) {
-      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
-    } else {
-      siteNav.style = "";
-    }
-  }
-
-  navToggle.addEventListener('click',navClick);  
-</script>
-  </div>
-  <div class="main-continer">
-    
-    <div
-      class="section-layout  pisces">
-      <div class="section-layout-wrapper">
-        <div id="sidebarMeta" class="sidebar">
-    
-<div class="sidebar-wrapper box-shadow-wrapper bg-color">
-  <div class="sidebar-item">
-    <img class="site-author-image right-motion" src="/images/avatar.png"/>
-    <p class="site-author-name"></p>
-    
-  </div>
-  <div class="sidebar-item side-item-stat right-motion">
-    <div class="sidebar-item-box">
-      <a href="/archives/">
-        
-        <span class="site-item-stat-count">3</span>
-        <span class="site-item-stat-name">文章</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="">
-        <span class="site-item-stat-count">1</span>
-        <span class="site-item-stat-name">分类</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="/tags/">
-        <span class="site-item-stat-count">1</span>
-        <span class="site-item-stat-name">标签</span>
-      </a>
-    </div>
-  </div>
-  
-    
-      <div class="sidebar-item" style="border-top: 1px dotted #ccc; margin-top: 10px;">
-      </div>
-    
-  
-  
-
-  
-
-
-</div>
-</div>
-<script>
-  let sidebarMeta = document.querySelector('#sidebarMeta');
-  let scheme = '';
-  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
-  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
-    document.addEventListener('scroll', function(e) {
-      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
-        sidebarWrapper.classList.add('home-sidebar-fixed')
-      } else {
-        sidebarWrapper.classList.remove('home-sidebar-fixed')
-      }
-    });
-  }
-  </script>
-        <div class="section-box box-shadow-wrapper">
-          <section class="section archives-section bg-color posts-expand">
-            
-
-<div class="bg-color">
-  <div class="archive-timeline-box">
-    <div class="archive-timeline-title">
-      
-        <h2>非常好！目前共计3篇日志，继续努力！</h2>
-      
-    </div>
-    
-      
-      
-        <div class="node-title">
-          <h2 class="tag-year">2021</h2>
-        </div>    
+          <a href="/" class="site-nav">
+            首页
+          </a>
         
       
-      <a href="https://kinboise.github.io/fruje/post/li-xiao-wang-ben-ji/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              04-19
-              <small>利孝王本紀</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-      <a href="https://kinboise.github.io/fruje/post/li-hui-wang-ben-ji/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              04-19
-              <small>利惠王本紀</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-      
-      <a href="https://kinboise.github.io/fruje/post/soc/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              04-03
-              <small>先拂矿铁</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
+    </div>
   </div>
-  
-<div class="page bg-color">
-  <ul class="pagination-ul">
-    
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-        <li class="pagination-li pagination-active">
-            <a href="/archives/page/../">
-              1
-            </a>
-        </li>
+        
       
-    
-    
-  </ul>
-</div>
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      "Kinboise" hafa-zugike
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://kinboise.github.io/fruje/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
 </div>
 
-          </section>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+
+          <h2 class="archives-title">文章归档</h2>
+          <div class="archives-container">
+            
+              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2021</h2>
+              
+                
+                  <article class="post">
+                    <a href="https://kinboise.github.io/fruje/post/li-xiao-wang-ben-ji/">
+                      <h2 class="post-title">
+                        利孝王本紀
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://kinboise.github.io/fruje/post/li-hui-wang-ben-ji/">
+                      <h2 class="post-title">
+                        利惠王本紀
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://kinboise.github.io/fruje/post/soc/">
+                      <h2 class="post-title">
+                        先拂矿铁
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+            
+          </div>
+
+          <div class="pagination-container">
+  
+  
+</div>
+
         </div>
       </div>
     </div>
-    <div class="footer-box">
-  <footer class="footer">
-    <div class="copyright">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
-    </div>
-    <div class="poweredby">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-    </div>
-  </footer>
-  
-  
-  <div class="pisces back-to-top" id="back_to_top">
-    <i class="fa fa-arrow-up"></i>
-    
-    <span class="scrollpercent">
-      <span id="back_to_top_text">0</span>%
-    </span>
-    
-  </div>
-  
-    <div class="bg-img">
-      <img src="" />
-    </div>
-  
-  
-  
-    
 
-  
-</div>
-<script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-  let sideBarOpen = 'sidebar-open';
-  let body = document.body;
-  let back2Top = document.querySelector('#back_to_top'),
-  back2TopText = document.querySelector('#back_to_top_text'),
-  drawerBox = document.querySelector('#drawer_box'),
-  rightSideBar = document.querySelector('.sidebar'),
-  viewport = document.querySelector('body');
+AOS.init();
 
-  function scrollAnimation(currentY, targetY) {
-   
-    let needScrollTop = targetY - currentY
-    let _currentY = currentY
-    setTimeout(() => {
-      const dist = Math.ceil(needScrollTop / 10)
-      _currentY += dist
-      window.scrollTo(_currentY, currentY)
-      if (needScrollTop > 10 || needScrollTop < -10) {
-        scrollAnimation(_currentY, targetY)
-      } else {
-        window.scrollTo(_currentY, targetY)
-      }
-    }, 1)
-  }
-
-  back2Top.addEventListener("click", function(e) {
-    scrollAnimation(document.scrollingElement.scrollTop, 0);
-    e.stopPropagation();
-    return false;
-  });
-  
-  window.addEventListener('scroll', function(e) {
-    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
-    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
-      back2Top.classList.add('back-top-active');
-    }
-    if (percent == 0) {
-      back2Top.classList.remove('back-top-active');
-    }
-    if (back2TopText) {
-      back2TopText.textContent = Math.floor(percent);
-    }
-  });
-
-  
-  let hasCacu = false;
-  window.onresize = function() {
-    if (window.width > 991) {
-      calcuHeight();
-    } else {
-      hasCacu = false;
-    }
-  }
-
-  function calcuHeight() {
-    // 动态调整站点概览高度
-    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
-      let sideBar = document.querySelector('.sidebar');
-      let navUl = document.querySelector('#site_nav');
-      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
-      hasCacu = true;
-    }
-  }
-  calcuHeight();
-  
-  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
-
-  if (drawerBox) {
-    let rightMotions = document.querySelectorAll('.right-motion');
-    let right = drawerBox.classList.contains('right');
-
-    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
-
-    let openProp, closeProp;
-    if (right) {
-      openProp = {
-        paddingRight: RIGHT_MOVE_DIS 
-      };
-      closeProp = {
-        paddingRight: '0px'
-      };
-    } else {
-      openProp = {
-        paddingLeft: RIGHT_MOVE_DIS 
-      };
-      closeProp = {
-        paddingLeft: '0px'
-      };
-    }
-
-    drawerBox.onclick = function() {
-      open = !open;
-      window.Velocity(rightSideBar, 'stop');
-      window.Velocity(viewport, 'stop');
-      window.Velocity(rightMotions, 'stop');
-      if (open) {
-        window.Velocity(rightSideBar, {
-          width: RIGHT_MOVE_DIS
-        }, {
-          duration: MOTION_TIME,
-          begin: function() {
-            window.Velocity(rightMotions, transitionDir,{ });
-          }
-        })
-        window.Velocity(viewport, openProp,{
-          duration: MOTION_TIME
-        });
-      } else {
-        window.Velocity(rightSideBar, {
-          width: '0px'
-        }, {
-          duration: MOTION_TIME,
-          begin: function() {
-            window.Velocity(rightMotions, {
-              opacity: 0
-            });
-          }
-        })
-        window.Velocity(viewport, closeProp ,{
-          duration: MOTION_TIME
-        });
-      }
-      for (let i = 0; i < drawerBox.children.length; i++) {
-        drawerBox.children[i].classList.toggle('muse-line');
-      }
-      drawerBox.classList.toggle(sideBarOpen);
-    }
-  }
-
-  // 链接跳转
-  let newWindow = ''
-  if (newWindow === 'true') {
-    let links = document.querySelectorAll('.post-body a')
-    links.forEach(item => {
-      if (!item.classList.contains('btn')) {
-        item.setAttribute("target","_blank");
-      }
-    })
-  }
-  // 代码高亮
-  hljs.initHighlightingOnLoad();
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
-  </div>
-</body>
-<input hidden id="copy" />
-<script>
-  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
-  window.Clipboard = (function (window, document, navigator) {
-    var textArea,
-      copy;
-
-    // 判断是不是ios端
-    function isOS() {
-      return navigator.userAgent.match(/ipad|iphone/i);
-    }
-    //创建文本元素
-    function createTextArea(text) {
-      textArea = document.createElement('textArea');
-      textArea.value = text;
-      textArea.style.width = 0;
-      textArea.style.height = 0;
-      textArea.clientHeight = 0;
-      textArea.clientWidth = 0;
-      document.body.appendChild(textArea);
-    }
-    //选择内容
-    function selectText() {
-      var range,
-        selection;
-
-      if (isOS()) {
-        range = document.createRange();
-        range.selectNodeContents(textArea);
-        selection = window.getSelection();
-        selection.removeAllRanges();
-        selection.addRange(range);
-        textArea.setSelectionRange(0, 999999);
-      } else {
-        textArea.select();
-      }
-    }
-
-    //复制到剪贴板
-    function copyToClipboard() {
-      try {
-        document.execCommand("Copy")
-      } catch (err) {
-        alert("复制错误！请手动复制！")
-      }
-      document.body.removeChild(textArea);
-    }
-
-    copy = function (text) {
-      createTextArea(text);
-      selectText();
-      copyToClipboard();
-    };
-
-    return {
-      copy: copy
-    };
-  })(window, document, navigator);
-
-  function copyCode(e) {
-    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
-      let code = e.currentTarget.querySelector('code');
-      var text = code.innerText;
-      if (e.srcElement.textContent === '复制成功') {
-        console.log('复制操作频率过高');
-        return;
-      }
-      e.srcElement.textContent = '复制成功';
-      (function (elem) {
-        setTimeout(() => {
-          if (elem.textContent === '复制成功') {
-            elem.textContent = '复制代码'
-          }
-        }, 1000);
-      })(e.srcElement)
-      Clipboard.copy(text);
-    }
-  }
-
-  let pres = document.querySelectorAll('pre');
-  pres.forEach(pre => {
-    let code = pre.querySelector('code');
-    let copyElem = document.createElement('span');
-    copyElem.classList.add('copy-code');
-    copyElem.textContent = '复制代码';
-    pre.appendChild(copyElem);
-    pre.onclick = copyCode
-  })
-</script>
-<script src="/media/js/motion.js"></script>
-
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script>
-  var scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 500
-  });
-</script>
-
-<!-- <div class="search-mask" id="search_mask">
-  <div class="search-box">
-    <div class="search-title">
-      <i class="fa fa-search"></i>
-      <div class="input-box">
-        <input type="text" placeholder="搜索">
-      </div>
-      <i class="fa fa-times-circle"></i>
-    </div>
-    <div class="result">
-      
-      <div class="item">
-        <a class="result-title" href="https://kinboise.github.io/fruje/post/li-xiao-wang-ben-ji/"" data-c="
-          &lt;p&gt;&lt;u&gt;孝王&lt;/u&gt;名&lt;u&gt;德&lt;/u&gt;字&lt;u&gt;央&lt;/u&gt;，&lt;u&gt;文王&lt;/u&gt;長子也。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;惠王&lt;/u&gt;六年，&lt;u&gt;文王&lt;/u&gt;崩，&lt;u&gt;孝王&lt;/u&gt;立爲太子。&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;&lt;u&gt;惠王&lt;/u&gt;十七年而崩，適&lt;u&gt;王子鉤&lt;/u&gt;及&lt;u&gt;泛公&lt;/u&gt;之亂，&lt;u&gt;孝王&lt;/u&gt;以&lt;u&gt;杉公&lt;/u&gt;並&lt;u&gt;王子奎&lt;/u&gt;靖之。&lt;/p&gt;
-&lt;p&gt;既而欲伐&lt;u&gt;泛公&lt;/u&gt;。丞相&lt;u&gt;省標&lt;/u&gt;諫曰：「不可。&lt;u&gt;泛公&lt;/u&gt;入能撫其民，出能平戎狄；雖敗於王，其力未削。」元帥&lt;u&gt;衍欽&lt;/u&gt;曰：「&lt;u&gt;泛公&lt;/u&gt;不臣，私合諸侯、戎狄數犯我；不伐之，王不威。」從&lt;u&gt;欽&lt;/u&gt;。&lt;u&gt;標&lt;/u&gt;諫曰：「王之伐&lt;u&gt;泛公&lt;/u&gt;，諸侯必不從。使王克之，王師將大傷；不克，是速禍也。」弗聽。&lt;/p&gt;
-&lt;p&gt;遂使&lt;u&gt;衍欽&lt;/u&gt;將中軍，&lt;u&gt;葡甚&lt;/u&gt;將左軍，&lt;u&gt;乘梳&lt;/u&gt;將右軍，以王師五萬伐&lt;u&gt;徊&lt;/u&gt;。王令&lt;u&gt;杉公&lt;/u&gt;、&lt;u&gt;陣公&lt;/u&gt;共伐之。&lt;u&gt;杉公&lt;/u&gt;稱疾不出，&lt;u&gt;陣公&lt;/u&gt;使&lt;u&gt;乘漆&lt;/u&gt;將戍師五千從王師。王不說，曰：「及&lt;u&gt;徊&lt;/u&gt;下，且還討之。」&lt;/p&gt;
-&lt;p&gt;王師軍於&lt;u&gt;崑嶺&lt;/u&gt;。&lt;u&gt;泛公&lt;/u&gt;使謂&lt;u&gt;欽&lt;/u&gt;曰：「將軍之士辱來敝邑，敝邑無以遊賞，不若早歸京師。若後歸，深冬雨雪，君其難越&lt;u&gt;斐山&lt;/u&gt;。」&lt;u&gt;欽&lt;/u&gt;怒，扣留其使。&lt;/p&gt;
-&lt;p&gt;王師與&lt;u&gt;汜梁&lt;/u&gt;戰於&lt;u&gt;薄田&lt;/u&gt;；頃之，&lt;u&gt;梁&lt;/u&gt;還走，王師進而軍&lt;u&gt;薄田&lt;/u&gt;。明日，再攻，&lt;u&gt;公子健&lt;/u&gt;（&lt;u&gt;泛武&lt;/u&gt;弟也）出戰，佯敗。&lt;u&gt;泛公&lt;/u&gt;使&lt;u&gt;梁&lt;/u&gt;、&lt;u&gt;健&lt;/u&gt;伏於&lt;u&gt;薄田&lt;/u&gt;之翼。越明日，&lt;u&gt;衍欽&lt;/u&gt;、&lt;u&gt;乘梳&lt;/u&gt;攻&lt;u&gt;徊&lt;/u&gt;之東門，&lt;u&gt;葡甚&lt;/u&gt;留守&lt;u&gt;薄田&lt;/u&gt;，&lt;u&gt;泛公&lt;/u&gt;不出。&lt;u&gt;公子健&lt;/u&gt;暴出而攻王師之後，&lt;u&gt;泛公&lt;/u&gt;亦出東門，夾擊王師；&lt;u&gt;汜梁&lt;/u&gt;攻王師之營，獲葡甚。王師敗績，東走，&lt;u&gt;梁&lt;/u&gt;、&lt;u&gt;健&lt;/u&gt;逐之。至&lt;u&gt;斐&lt;/u&gt;之陰，天雨雪，道不通，王師死者十之八。&lt;u&gt;衍欽&lt;/u&gt;乃自殺。&lt;/p&gt;
-&lt;p&gt;王大慚，語&lt;u&gt;王子瑛&lt;/u&gt;（&lt;u&gt;惠王&lt;/u&gt;子也）曰：「寡人不德，以一念使忠臣良士死於野，是辱叔父先王之靈也。寡人請禪於吾賢弟。」&lt;u&gt;瑛&lt;/u&gt;驚，俯首而拜，辭曰：「先王有命，臣弟安敢受！今師窘於外，臣且往救之。」許之，與之師。又請假道於&lt;u&gt;杉&lt;/u&gt;，&lt;u&gt;杉公&lt;/u&gt;許之，且遣師會&lt;u&gt;瑛&lt;/u&gt;之師。&lt;u&gt;瑛&lt;/u&gt;與&lt;u&gt;汜梁&lt;/u&gt;、&lt;u&gt;公子健&lt;/u&gt;戰於&lt;u&gt;斐&lt;/u&gt;陰，克之，獲&lt;u&gt;汜梁&lt;/u&gt;而還。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;乘梳&lt;/u&gt;囚服以朝王。王自罪己，命&lt;u&gt;乘梳&lt;/u&gt;爲將軍，且封&lt;u&gt;王子瑛&lt;/u&gt;於&lt;u&gt;玈&lt;/u&gt;。&lt;u&gt;瑛&lt;/u&gt;爲王卿，使其子&lt;u&gt;蓋&lt;/u&gt;就國，是爲&lt;u&gt;玈侯蓋&lt;/u&gt;，其後因&lt;u&gt;惠王&lt;/u&gt;而爲&lt;u&gt;惠氏&lt;/u&gt;。&lt;/p&gt;
-&lt;p&gt;二年，王遣&lt;u&gt;王子瑛&lt;/u&gt;與&lt;u&gt;泛公&lt;/u&gt;盟於&lt;u&gt;音&lt;/u&gt;，&lt;u&gt;杉公&lt;/u&gt;成之也。&lt;/p&gt;
-&lt;p&gt;九年，&lt;u&gt;結公&lt;/u&gt;與&lt;u&gt;陣公&lt;/u&gt;戰於&lt;br&gt;
-&lt;em&gt;未完&lt;/em&gt;&lt;/p&gt;
-">利孝王本紀</a>
-      </div>
-      
-      <div class="item">
-        <a class="result-title" href="https://kinboise.github.io/fruje/post/li-hui-wang-ben-ji/"" data-c="
-          &lt;p&gt;&lt;u&gt;惠王&lt;/u&gt;名&lt;u&gt;刈&lt;/u&gt;字&lt;u&gt;青&lt;/u&gt;，&lt;u&gt;武王&lt;/u&gt;次子、&lt;u&gt;文王&lt;/u&gt;弟也。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;武王&lt;/u&gt;諸子皆少從征。以&lt;u&gt;文王&lt;/u&gt;年長，使將右軍；餘子咸置於行伍，謂曰：「汝，卒也，不可以公子居。」王從右軍，&lt;u&gt;公子鉤&lt;/u&gt;從中軍，&lt;u&gt;公子奎&lt;/u&gt;、&lt;u&gt;公子巒&lt;/u&gt;從左軍。&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;諸公子入伍不期月，&lt;u&gt;巒&lt;/u&gt;以公子傲於衆。&lt;u&gt;武王&lt;/u&gt;怒，笞&lt;u&gt;巒&lt;/u&gt;，使之司炊。&lt;/p&gt;
-&lt;p&gt;衆卒始知諸公子在軍中，俱度爲誰，得&lt;u&gt;鉤&lt;/u&gt;、&lt;u&gt;奎&lt;/u&gt;，獨不得&lt;u&gt;惠王&lt;/u&gt;。越年半，&lt;u&gt;武王&lt;/u&gt;使&lt;u&gt;鉤&lt;/u&gt;、&lt;u&gt;奎&lt;/u&gt;爲副將。王患之，謂軍吏&lt;u&gt;乘諒&lt;/u&gt;曰：「我亦公子也。」軍吏哂之，曰：「戰以懮，退以喜，怯也；汝而爲公子，吾其爲公子哉！」王對曰：「戰者勞民傷財，刈是以懮。古人云：『不戰而屈人之兵』，尚也。」&lt;u&gt;武王&lt;/u&gt;聞之不說，而&lt;u&gt;文王&lt;/u&gt;奇之。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;文王&lt;/u&gt;二年，&lt;u&gt;泛公子武&lt;/u&gt;反，與&lt;u&gt;杉公景衡&lt;/u&gt;、&lt;u&gt;陣公田干&lt;/u&gt;圍&lt;u&gt;中京&lt;/u&gt;，號曰『王&lt;u&gt;利&lt;/u&gt;不王&lt;u&gt;新&lt;/u&gt;』。&lt;u&gt;惠王&lt;/u&gt;謂&lt;u&gt;文王&lt;/u&gt;：「&lt;u&gt;泛公&lt;/u&gt;之號『王&lt;u&gt;利&lt;/u&gt;不王&lt;u&gt;新&lt;/u&gt;』。請更姓&lt;u&gt;利&lt;/u&gt;氏。」&lt;u&gt;文王&lt;/u&gt;既從之，與&lt;u&gt;泛武&lt;/u&gt;約。&lt;u&gt;泛武&lt;/u&gt;以&lt;u&gt;文王&lt;/u&gt;爲懼己，因曰：「將士涉遠道，請暫休於王地，期月而還。」已期月，師不退。&lt;u&gt;文王&lt;/u&gt;患之，與衆臣謀。&lt;u&gt;惠王&lt;/u&gt;曰：「敢請禪於我，必退其師。」衆臣怒責&lt;u&gt;惠王&lt;/u&gt;之大逆不道。&lt;u&gt;文王&lt;/u&gt;度之，竟曰：「善，寡人將禪也。」即起立，躬迎&lt;u&gt;惠王&lt;/u&gt;於座。衆臣嘩然，&lt;u&gt;文王&lt;/u&gt;曰：「新王與寡人皆先王之子也，衆卿請相之如相寡人然。」&lt;/p&gt;
-&lt;p&gt;春，王即位。時泛武軍&lt;u&gt;柳泉&lt;/u&gt;，&lt;u&gt;杉公&lt;/u&gt;軍&lt;u&gt;帳坡&lt;/u&gt;，&lt;u&gt;陣公&lt;/u&gt;軍&lt;u&gt;東簾&lt;/u&gt;。元帥&lt;u&gt;乘諒&lt;/u&gt;請出擊&lt;u&gt;泛武&lt;/u&gt;、&lt;u&gt;杉公&lt;/u&gt;、&lt;u&gt;陣公&lt;/u&gt;。&lt;u&gt;惠王&lt;/u&gt;曰：「將自退。京中餘糧豐實，君且固守而待之。」越五日，&lt;u&gt;杉公&lt;/u&gt;果還；明日&lt;u&gt;陣公&lt;/u&gt;亦還。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;泛武&lt;/u&gt;雖不欲退，其部卒皆不與之，曰：「今王誠姓&lt;u&gt;利&lt;/u&gt;，何不歸乎？」其將&lt;u&gt;極甑&lt;/u&gt;諫曰：「公請量力。&lt;u&gt;杉公&lt;/u&gt;、&lt;u&gt;陣公&lt;/u&gt;既還，獨以公之師，安能克王師乎？」遂退。王令&lt;u&gt;乘諒&lt;/u&gt;將三軍以逐&lt;u&gt;泛武&lt;/u&gt;，大敗之。衆臣遂服。&lt;/p&gt;
-&lt;p&gt;既克，&lt;u&gt;泛公臺&lt;/u&gt;來朝。王使&lt;u&gt;王子鉤&lt;/u&gt;戍&lt;u&gt;徊&lt;/u&gt;、&lt;u&gt;王子奎&lt;/u&gt;戍&lt;u&gt;音&lt;/u&gt;、&lt;u&gt;王子巒&lt;/u&gt;戍&lt;u&gt;興&lt;/u&gt;。&lt;u&gt;文王&lt;/u&gt;私語王：「&lt;u&gt;巒&lt;/u&gt;性懦，不卒戍；及君崩，&lt;u&gt;鉤&lt;/u&gt;將反。寡兄請代之！」王曰：「兄爲上王，豈可出戍？請復君位，弟且自出戍。」文王曰：「國之方定，不可廢也，君宜爲王。」因以&lt;u&gt;乘諒&lt;/u&gt;佐&lt;u&gt;鉤&lt;/u&gt;、&lt;u&gt;寰駿&lt;/u&gt;佐&lt;u&gt;奎&lt;/u&gt;、&lt;u&gt;賓告&lt;/u&gt;佐&lt;u&gt;巒&lt;/u&gt;。三年，&lt;u&gt;巒&lt;/u&gt;請返國，以&lt;u&gt;乘漆&lt;/u&gt;（&lt;u&gt;乘諒&lt;/u&gt;之弟也）代之。&lt;/p&gt;
-&lt;p&gt;王之在位也，每事必問於&lt;u&gt;文王&lt;/u&gt;，不敢稍有不敬。六年，&lt;u&gt;文王&lt;/u&gt;崩。王以&lt;u&gt;文王&lt;/u&gt;之子&lt;u&gt;德&lt;/u&gt;爲太子。&lt;/p&gt;
-&lt;p&gt;十五年正月，&lt;u&gt;武&lt;/u&gt;爲&lt;u&gt;泛公&lt;/u&gt;，來朝。&lt;u&gt;鉤&lt;/u&gt;欲從之，王不許。&lt;u&gt;泛公&lt;/u&gt;還，陰言於&lt;u&gt;鉤&lt;/u&gt;：「噫！君與王，俱&lt;u&gt;文王&lt;/u&gt;弟也；今彼爲王，君曾不能返國。」對曰：「何言哉！王命可廢乎？」七月，&lt;u&gt;乘諒&lt;/u&gt;卒，又言。&lt;u&gt;鉤&lt;/u&gt;曰：「無之。」十六年，王有疾，又言。鉤曰：「君之躁甚矣。」&lt;u&gt;泛公&lt;/u&gt;喜，知其將反。&lt;/p&gt;
-&lt;p&gt;十七年二月，王病笃。&lt;u&gt;鉤&lt;/u&gt;將兵圍京師，假視王病，欲弒王；&lt;u&gt;泛公&lt;/u&gt;軍於百里外。王不納。四月，王崩，&lt;u&gt;太子德&lt;/u&gt;、&lt;u&gt;王子絳&lt;/u&gt;隱之，以&lt;u&gt;惠王&lt;/u&gt;之命&lt;u&gt;杉公&lt;/u&gt;及&lt;u&gt;王子奎&lt;/u&gt;靖亂。&lt;u&gt;杉公昌&lt;/u&gt;與王之元帥&lt;u&gt;衍欽&lt;/u&gt;共擊&lt;u&gt;鉤&lt;/u&gt;，獲之；&lt;u&gt;王子奎&lt;/u&gt;擊&lt;u&gt;泛公&lt;/u&gt;，&lt;u&gt;泛公&lt;/u&gt;退。七月，殺&lt;u&gt;王子鉤&lt;/u&gt;。九月，葬&lt;u&gt;惠王&lt;/u&gt;。&lt;/p&gt;
-">利惠王本紀</a>
-      </div>
-      
-      <div class="item">
-        <a class="result-title" href="https://kinboise.github.io/fruje/post/soc/"" data-c="
-          &lt;p&gt;&lt;u&gt;先拂&lt;/u&gt;是Kinboise始建于2014年7月的《我的世界》基岩版（当时的PE）存档。目前，&lt;u&gt;先拂&lt;/u&gt;已成为一个城市建设服务器，有丰富的交通网以及各种自动化系统。&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;h1 id=&#34;前五年的辉煌&#34;&gt;前五年的辉煌&lt;/h1&gt;
-&lt;p&gt;前五年的&lt;u&gt;先拂&lt;/u&gt;是纯铁路存档，除铁路之外再无他物。铁路直接裸露铺在地上，无任何围挡；「车站」仅由停车装置和站牌构成，连站台也没有。虽然简陋如此，但五年来一共修了14条线路（1~14号线），250余座车站，基本覆盖了半径1500范围的广阔区域。&lt;/p&gt;
-&lt;p&gt;总结起来，前五年留下的遗产主要有三：两百余个有历史的地名、广阔的已探索区域、一张铁路规划图。时过境迁，当年的简陋铁路不再能满足新时代的要求了。目前，这些旧线在逐步拆除并按新标准重建。新线的线位、设站都是以旧线为基础，只是稍加微调。&lt;/p&gt;
-">先拂矿铁</a>
-      </div>
-      
-      <div class="item">
-        <a class="result-title" href="https://kinboise.github.io/fruje/post/about/"" data-c="
-          &lt;blockquote&gt;
-&lt;p&gt;jehipar!.&lt;br&gt;
-欢迎🤝&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
-&lt;p&gt;fipo fruje a Kinbvise hafa-zugike, zilu bu hafa-zugi, bu Xef, bu Lasej-Basonja...&lt;br&gt;
-造语者&lt;u&gt;臤徘斯&lt;/u&gt;随手一写的地方，可能有关造语、《我的世界》&lt;u&gt;先拂&lt;/u&gt;、&lt;u&gt;曰坔&lt;/u&gt;架空历史……&lt;/p&gt;
-">关于</a>
-      </div>
-      
-      <div class="item">
-        <a class="result-title" href="https://kinboise.github.io/fruje/post/hello-gridea/"" data-c="
-          &lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;
-✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/getgridea/gridea&#34;&gt;Github&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://gridea.dev/&#34;&gt;Gridea 主页&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;http://fehey.com/&#34;&gt;示例网站&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;特性&#34;&gt;特性👇&lt;/h2&gt;
-&lt;p&gt;📝  你可以使用最酷的 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，进行快速创作&lt;/p&gt;
-&lt;p&gt;🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片&lt;/p&gt;
-&lt;p&gt;🏷️  你可以对文章进行标签分组&lt;/p&gt;
-&lt;p&gt;📋  你可以自定义菜单，甚至可以创建外部链接菜单&lt;/p&gt;
-&lt;p&gt;💻  你可以在 &lt;strong&gt;Windows&lt;/strong&gt;，&lt;strong&gt;MacOS&lt;/strong&gt; 或 &lt;strong&gt;Linux&lt;/strong&gt; 设备上使用此客户端&lt;/p&gt;
-&lt;p&gt;🌎  你可以使用 &lt;strong&gt;𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌&lt;/strong&gt; 或 &lt;strong&gt;Coding Pages&lt;/strong&gt; 向世界展示，未来将支持更多平台&lt;/p&gt;
-&lt;p&gt;💬  你可以进行简单的配置，接入 &lt;a href=&#34;https://github.com/gitalk/gitalk&#34;&gt;Gitalk&lt;/a&gt; 或 &lt;a href=&#34;https://github.com/SukkaW/DisqusJS&#34;&gt;DisqusJS&lt;/a&gt; 评论系统&lt;/p&gt;
-&lt;p&gt;🇬🇧  你可以使用&lt;strong&gt;中文简体&lt;/strong&gt;或&lt;strong&gt;英语&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力&lt;/p&gt;
-&lt;p&gt;🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步&lt;/p&gt;
-&lt;p&gt;🌱 当然 &lt;strong&gt;Gridea&lt;/strong&gt; 还很年轻，有很多不足，但请相信，它会不停向前 🏃&lt;/p&gt;
-&lt;p&gt;未来，它一定会成为你离不开的伙伴&lt;/p&gt;
-&lt;p&gt;尽情发挥你的才华吧！&lt;/p&gt;
-&lt;p&gt;😘 Enjoy~&lt;/p&gt;
-">Hello Gridea</a>
-      </div>
-      
-    </div>
-  </div>
-</div>
-<script>
-  // var escape = "[{&#34;content&#34;:&#34;&lt;p&gt;&lt;u&gt;孝王&lt;/u&gt;名&lt;u&gt;德&lt;/u&gt;字&lt;u&gt;央&lt;/u&gt;，&lt;u&gt;文王&lt;/u&gt;長子也。&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;惠王&lt;/u&gt;六年，&lt;u&gt;文王&lt;/u&gt;崩，&lt;u&gt;孝王&lt;/u&gt;立爲太子。&lt;/p&gt;\n&lt;!-- more --&gt;\n&lt;p&gt;&lt;u&gt;惠王&lt;/u&gt;十七年而崩，適&lt;u&gt;王子鉤&lt;/u&gt;及&lt;u&gt;泛公&lt;/u&gt;之亂，&lt;u&gt;孝王&lt;/u&gt;以&lt;u&gt;杉公&lt;/u&gt;並&lt;u&gt;王子奎&lt;/u&gt;靖之。&lt;/p&gt;\n&lt;p&gt;既而欲伐&lt;u&gt;泛公&lt;/u&gt;。丞相&lt;u&gt;省標&lt;/u&gt;諫曰：「不可。&lt;u&gt;泛公&lt;/u&gt;入能撫其民，出能平戎狄；雖敗於王，其力未削。」元帥&lt;u&gt;衍欽&lt;/u&gt;曰：「&lt;u&gt;泛公&lt;/u&gt;不臣，私合諸侯、戎狄數犯我；不伐之，王不威。」從&lt;u&gt;欽&lt;/u&gt;。&lt;u&gt;標&lt;/u&gt;諫曰：「王之伐&lt;u&gt;泛公&lt;/u&gt;，諸侯必不從。使王克之，王師將大傷；不克，是速禍也。」弗聽。&lt;/p&gt;\n&lt;p&gt;遂使&lt;u&gt;衍欽&lt;/u&gt;將中軍，&lt;u&gt;葡甚&lt;/u&gt;將左軍，&lt;u&gt;乘梳&lt;/u&gt;將右軍，以王師五萬伐&lt;u&gt;徊&lt;/u&gt;。王令&lt;u&gt;杉公&lt;/u&gt;、&lt;u&gt;陣公&lt;/u&gt;共伐之。&lt;u&gt;杉公&lt;/u&gt;稱疾不出，&lt;u&gt;陣公&lt;/u&gt;使&lt;u&gt;乘漆&lt;/u&gt;將戍師五千從王師。王不說，曰：「及&lt;u&gt;徊&lt;/u&gt;下，且還討之。」&lt;/p&gt;\n&lt;p&gt;王師軍於&lt;u&gt;崑嶺&lt;/u&gt;。&lt;u&gt;泛公&lt;/u&gt;使謂&lt;u&gt;欽&lt;/u&gt;曰：「將軍之士辱來敝邑，敝邑無以遊賞，不若早歸京師。若後歸，深冬雨雪，君其難越&lt;u&gt;斐山&lt;/u&gt;。」&lt;u&gt;欽&lt;/u&gt;怒，扣留其使。&lt;/p&gt;\n&lt;p&gt;王師與&lt;u&gt;汜梁&lt;/u&gt;戰於&lt;u&gt;薄田&lt;/u&gt;；頃之，&lt;u&gt;梁&lt;/u&gt;還走，王師進而軍&lt;u&gt;薄田&lt;/u&gt;。明日，再攻，&lt;u&gt;公子健&lt;/u&gt;（&lt;u&gt;泛武&lt;/u&gt;弟也）出戰，佯敗。&lt;u&gt;泛公&lt;/u&gt;使&lt;u&gt;梁&lt;/u&gt;、&lt;u&gt;健&lt;/u&gt;伏於&lt;u&gt;薄田&lt;/u&gt;之翼。越明日，&lt;u&gt;衍欽&lt;/u&gt;、&lt;u&gt;乘梳&lt;/u&gt;攻&lt;u&gt;徊&lt;/u&gt;之東門，&lt;u&gt;葡甚&lt;/u&gt;留守&lt;u&gt;薄田&lt;/u&gt;，&lt;u&gt;泛公&lt;/u&gt;不出。&lt;u&gt;公子健&lt;/u&gt;暴出而攻王師之後，&lt;u&gt;泛公&lt;/u&gt;亦出東門，夾擊王師；&lt;u&gt;汜梁&lt;/u&gt;攻王師之營，獲葡甚。王師敗績，東走，&lt;u&gt;梁&lt;/u&gt;、&lt;u&gt;健&lt;/u&gt;逐之。至&lt;u&gt;斐&lt;/u&gt;之陰，天雨雪，道不通，王師死者十之八。&lt;u&gt;衍欽&lt;/u&gt;乃自殺。&lt;/p&gt;\n&lt;p&gt;王大慚，語&lt;u&gt;王子瑛&lt;/u&gt;（&lt;u&gt;惠王&lt;/u&gt;子也）曰：「寡人不德，以一念使忠臣良士死於野，是辱叔父先王之靈也。寡人請禪於吾賢弟。」&lt;u&gt;瑛&lt;/u&gt;驚，俯首而拜，辭曰：「先王有命，臣弟安敢受！今師窘於外，臣且往救之。」許之，與之師。又請假道於&lt;u&gt;杉&lt;/u&gt;，&lt;u&gt;杉公&lt;/u&gt;許之，且遣師會&lt;u&gt;瑛&lt;/u&gt;之師。&lt;u&gt;瑛&lt;/u&gt;與&lt;u&gt;汜梁&lt;/u&gt;、&lt;u&gt;公子健&lt;/u&gt;戰於&lt;u&gt;斐&lt;/u&gt;陰，克之，獲&lt;u&gt;汜梁&lt;/u&gt;而還。&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;乘梳&lt;/u&gt;囚服以朝王。王自罪己，命&lt;u&gt;乘梳&lt;/u&gt;爲將軍，且封&lt;u&gt;王子瑛&lt;/u&gt;於&lt;u&gt;玈&lt;/u&gt;。&lt;u&gt;瑛&lt;/u&gt;爲王卿，使其子&lt;u&gt;蓋&lt;/u&gt;就國，是爲&lt;u&gt;玈侯蓋&lt;/u&gt;，其後因&lt;u&gt;惠王&lt;/u&gt;而爲&lt;u&gt;惠氏&lt;/u&gt;。&lt;/p&gt;\n&lt;p&gt;二年，王遣&lt;u&gt;王子瑛&lt;/u&gt;與&lt;u&gt;泛公&lt;/u&gt;盟於&lt;u&gt;音&lt;/u&gt;，&lt;u&gt;杉公&lt;/u&gt;成之也。&lt;/p&gt;\n&lt;p&gt;九年，&lt;u&gt;結公&lt;/u&gt;與&lt;u&gt;陣公&lt;/u&gt;戰於&lt;br&gt;\n&lt;em&gt;未完&lt;/em&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;li-xiao-wang-ben-ji&#34;,&#34;abstract&#34;:&#34;&lt;p&gt;&lt;u&gt;孝王&lt;/u&gt;名&lt;u&gt;德&lt;/u&gt;字&lt;u&gt;央&lt;/u&gt;，&lt;u&gt;文王&lt;/u&gt;長子也。&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;惠王&lt;/u&gt;六年，&lt;u&gt;文王&lt;/u&gt;崩，&lt;u&gt;孝王&lt;/u&gt;立爲太子。&lt;/p&gt;\n&#34;,&#34;title&#34;:&#34;利孝王本紀&#34;,&#34;tags&#34;:[{&#34;index&#34;:1,&#34;name&#34;:&#34;架空&#34;,&#34;slug&#34;:&#34;krahkhung&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://kinboise.github.io/fruje/tag/krahkhung/&#34;}],&#34;date&#34;:&#34;2021-04-19 14:48:11&#34;,&#34;dateFormat&#34;:&#34;2021-04-19&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://kinboise.github.io/fruje/post/li-xiao-wang-ben-ji/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:115000,&#34;words&#34;:575,&#34;minutes&#34;:2},&#34;description&#34;:&#34;孝王名德字央，文王長子也。\n惠王六年，文王崩，孝王立爲太子。\n\n惠王十七年而崩，適王子鉤及泛公之亂，孝王以杉公並王子奎靖之。\n既而欲伐泛公。丞相省標諫曰：「不可。泛公入能撫其民，出能平戎狄；雖敗於王，其力未削。」元帥衍欽曰：「泛公不臣，私合...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;u&gt;惠王&lt;/u&gt;名&lt;u&gt;刈&lt;/u&gt;字&lt;u&gt;青&lt;/u&gt;，&lt;u&gt;武王&lt;/u&gt;次子、&lt;u&gt;文王&lt;/u&gt;弟也。&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;武王&lt;/u&gt;諸子皆少從征。以&lt;u&gt;文王&lt;/u&gt;年長，使將右軍；餘子咸置於行伍，謂曰：「汝，卒也，不可以公子居。」王從右軍，&lt;u&gt;公子鉤&lt;/u&gt;從中軍，&lt;u&gt;公子奎&lt;/u&gt;、&lt;u&gt;公子巒&lt;/u&gt;從左軍。&lt;/p&gt;\n&lt;!-- more --&gt;\n&lt;p&gt;諸公子入伍不期月，&lt;u&gt;巒&lt;/u&gt;以公子傲於衆。&lt;u&gt;武王&lt;/u&gt;怒，笞&lt;u&gt;巒&lt;/u&gt;，使之司炊。&lt;/p&gt;\n&lt;p&gt;衆卒始知諸公子在軍中，俱度爲誰，得&lt;u&gt;鉤&lt;/u&gt;、&lt;u&gt;奎&lt;/u&gt;，獨不得&lt;u&gt;惠王&lt;/u&gt;。越年半，&lt;u&gt;武王&lt;/u&gt;使&lt;u&gt;鉤&lt;/u&gt;、&lt;u&gt;奎&lt;/u&gt;爲副將。王患之，謂軍吏&lt;u&gt;乘諒&lt;/u&gt;曰：「我亦公子也。」軍吏哂之，曰：「戰以懮，退以喜，怯也；汝而爲公子，吾其爲公子哉！」王對曰：「戰者勞民傷財，刈是以懮。古人云：『不戰而屈人之兵』，尚也。」&lt;u&gt;武王&lt;/u&gt;聞之不說，而&lt;u&gt;文王&lt;/u&gt;奇之。&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;文王&lt;/u&gt;二年，&lt;u&gt;泛公子武&lt;/u&gt;反，與&lt;u&gt;杉公景衡&lt;/u&gt;、&lt;u&gt;陣公田干&lt;/u&gt;圍&lt;u&gt;中京&lt;/u&gt;，號曰『王&lt;u&gt;利&lt;/u&gt;不王&lt;u&gt;新&lt;/u&gt;』。&lt;u&gt;惠王&lt;/u&gt;謂&lt;u&gt;文王&lt;/u&gt;：「&lt;u&gt;泛公&lt;/u&gt;之號『王&lt;u&gt;利&lt;/u&gt;不王&lt;u&gt;新&lt;/u&gt;』。請更姓&lt;u&gt;利&lt;/u&gt;氏。」&lt;u&gt;文王&lt;/u&gt;既從之，與&lt;u&gt;泛武&lt;/u&gt;約。&lt;u&gt;泛武&lt;/u&gt;以&lt;u&gt;文王&lt;/u&gt;爲懼己，因曰：「將士涉遠道，請暫休於王地，期月而還。」已期月，師不退。&lt;u&gt;文王&lt;/u&gt;患之，與衆臣謀。&lt;u&gt;惠王&lt;/u&gt;曰：「敢請禪於我，必退其師。」衆臣怒責&lt;u&gt;惠王&lt;/u&gt;之大逆不道。&lt;u&gt;文王&lt;/u&gt;度之，竟曰：「善，寡人將禪也。」即起立，躬迎&lt;u&gt;惠王&lt;/u&gt;於座。衆臣嘩然，&lt;u&gt;文王&lt;/u&gt;曰：「新王與寡人皆先王之子也，衆卿請相之如相寡人然。」&lt;/p&gt;\n&lt;p&gt;春，王即位。時泛武軍&lt;u&gt;柳泉&lt;/u&gt;，&lt;u&gt;杉公&lt;/u&gt;軍&lt;u&gt;帳坡&lt;/u&gt;，&lt;u&gt;陣公&lt;/u&gt;軍&lt;u&gt;東簾&lt;/u&gt;。元帥&lt;u&gt;乘諒&lt;/u&gt;請出擊&lt;u&gt;泛武&lt;/u&gt;、&lt;u&gt;杉公&lt;/u&gt;、&lt;u&gt;陣公&lt;/u&gt;。&lt;u&gt;惠王&lt;/u&gt;曰：「將自退。京中餘糧豐實，君且固守而待之。」越五日，&lt;u&gt;杉公&lt;/u&gt;果還；明日&lt;u&gt;陣公&lt;/u&gt;亦還。&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;泛武&lt;/u&gt;雖不欲退，其部卒皆不與之，曰：「今王誠姓&lt;u&gt;利&lt;/u&gt;，何不歸乎？」其將&lt;u&gt;極甑&lt;/u&gt;諫曰：「公請量力。&lt;u&gt;杉公&lt;/u&gt;、&lt;u&gt;陣公&lt;/u&gt;既還，獨以公之師，安能克王師乎？」遂退。王令&lt;u&gt;乘諒&lt;/u&gt;將三軍以逐&lt;u&gt;泛武&lt;/u&gt;，大敗之。衆臣遂服。&lt;/p&gt;\n&lt;p&gt;既克，&lt;u&gt;泛公臺&lt;/u&gt;來朝。王使&lt;u&gt;王子鉤&lt;/u&gt;戍&lt;u&gt;徊&lt;/u&gt;、&lt;u&gt;王子奎&lt;/u&gt;戍&lt;u&gt;音&lt;/u&gt;、&lt;u&gt;王子巒&lt;/u&gt;戍&lt;u&gt;興&lt;/u&gt;。&lt;u&gt;文王&lt;/u&gt;私語王：「&lt;u&gt;巒&lt;/u&gt;性懦，不卒戍；及君崩，&lt;u&gt;鉤&lt;/u&gt;將反。寡兄請代之！」王曰：「兄爲上王，豈可出戍？請復君位，弟且自出戍。」文王曰：「國之方定，不可廢也，君宜爲王。」因以&lt;u&gt;乘諒&lt;/u&gt;佐&lt;u&gt;鉤&lt;/u&gt;、&lt;u&gt;寰駿&lt;/u&gt;佐&lt;u&gt;奎&lt;/u&gt;、&lt;u&gt;賓告&lt;/u&gt;佐&lt;u&gt;巒&lt;/u&gt;。三年，&lt;u&gt;巒&lt;/u&gt;請返國，以&lt;u&gt;乘漆&lt;/u&gt;（&lt;u&gt;乘諒&lt;/u&gt;之弟也）代之。&lt;/p&gt;\n&lt;p&gt;王之在位也，每事必問於&lt;u&gt;文王&lt;/u&gt;，不敢稍有不敬。六年，&lt;u&gt;文王&lt;/u&gt;崩。王以&lt;u&gt;文王&lt;/u&gt;之子&lt;u&gt;德&lt;/u&gt;爲太子。&lt;/p&gt;\n&lt;p&gt;十五年正月，&lt;u&gt;武&lt;/u&gt;爲&lt;u&gt;泛公&lt;/u&gt;，來朝。&lt;u&gt;鉤&lt;/u&gt;欲從之，王不許。&lt;u&gt;泛公&lt;/u&gt;還，陰言於&lt;u&gt;鉤&lt;/u&gt;：「噫！君與王，俱&lt;u&gt;文王&lt;/u&gt;弟也；今彼爲王，君曾不能返國。」對曰：「何言哉！王命可廢乎？」七月，&lt;u&gt;乘諒&lt;/u&gt;卒，又言。&lt;u&gt;鉤&lt;/u&gt;曰：「無之。」十六年，王有疾，又言。鉤曰：「君之躁甚矣。」&lt;u&gt;泛公&lt;/u&gt;喜，知其將反。&lt;/p&gt;\n&lt;p&gt;十七年二月，王病笃。&lt;u&gt;鉤&lt;/u&gt;將兵圍京師，假視王病，欲弒王；&lt;u&gt;泛公&lt;/u&gt;軍於百里外。王不納。四月，王崩，&lt;u&gt;太子德&lt;/u&gt;、&lt;u&gt;王子絳&lt;/u&gt;隱之，以&lt;u&gt;惠王&lt;/u&gt;之命&lt;u&gt;杉公&lt;/u&gt;及&lt;u&gt;王子奎&lt;/u&gt;靖亂。&lt;u&gt;杉公昌&lt;/u&gt;與王之元帥&lt;u&gt;衍欽&lt;/u&gt;共擊&lt;u&gt;鉤&lt;/u&gt;，獲之；&lt;u&gt;王子奎&lt;/u&gt;擊&lt;u&gt;泛公&lt;/u&gt;，&lt;u&gt;泛公&lt;/u&gt;退。七月，殺&lt;u&gt;王子鉤&lt;/u&gt;。九月，葬&lt;u&gt;惠王&lt;/u&gt;。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;li-hui-wang-ben-ji&#34;,&#34;abstract&#34;:&#34;&lt;p&gt;&lt;u&gt;惠王&lt;/u&gt;名&lt;u&gt;刈&lt;/u&gt;字&lt;u&gt;青&lt;/u&gt;，&lt;u&gt;武王&lt;/u&gt;次子、&lt;u&gt;文王&lt;/u&gt;弟也。&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;武王&lt;/u&gt;諸子皆少從征。以&lt;u&gt;文王&lt;/u&gt;年長，使將右軍；餘子咸置於行伍，謂曰：「汝，卒也，不可以公子居。」王從右軍，&lt;u&gt;公子鉤&lt;/u&gt;從中軍，&lt;u&gt;公子奎&lt;/u&gt;、&lt;u&gt;公子巒&lt;/u&gt;從左軍。&lt;/p&gt;\n&#34;,&#34;title&#34;:&#34;利惠王本紀&#34;,&#34;tags&#34;:[{&#34;index&#34;:1,&#34;name&#34;:&#34;架空&#34;,&#34;slug&#34;:&#34;krahkhung&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://kinboise.github.io/fruje/tag/krahkhung/&#34;}],&#34;date&#34;:&#34;2021-04-19 14:45:54&#34;,&#34;dateFormat&#34;:&#34;2021-04-19&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://kinboise.github.io/fruje/post/li-hui-wang-ben-ji/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;3 min read&#34;,&#34;time&#34;:164000,&#34;words&#34;:822,&#34;minutes&#34;:3},&#34;description&#34;:&#34;惠王名刈字青，武王次子、文王弟也。\n武王諸子皆少從征。以文王年長，使將右軍；餘子咸置於行伍，謂曰：「汝，卒也，不可以公子居。」王從右軍，公子鉤從中軍，公子奎、公子巒從左軍。\n\n諸公子入伍不期月，巒以公子傲於衆。武王怒，笞巒，使之司炊。\n衆卒...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;u&gt;先拂&lt;/u&gt;是Kinboise始建于2014年7月的《我的世界》基岩版（当时的PE）存档。目前，&lt;u&gt;先拂&lt;/u&gt;已成为一个城市建设服务器，有丰富的交通网以及各种自动化系统。&lt;/p&gt;\n&lt;!-- more --&gt;\n&lt;h1 id=\&#34;前五年的辉煌\&#34;&gt;前五年的辉煌&lt;/h1&gt;\n&lt;p&gt;前五年的&lt;u&gt;先拂&lt;/u&gt;是纯铁路存档，除铁路之外再无他物。铁路直接裸露铺在地上，无任何围挡；「车站」仅由停车装置和站牌构成，连站台也没有。虽然简陋如此，但五年来一共修了14条线路（1~14号线），250余座车站，基本覆盖了半径1500范围的广阔区域。&lt;/p&gt;\n&lt;p&gt;总结起来，前五年留下的遗产主要有三：两百余个有历史的地名、广阔的已探索区域、一张铁路规划图。时过境迁，当年的简陋铁路不再能满足新时代的要求了。目前，这些旧线在逐步拆除并按新标准重建。新线的线位、设站都是以旧线为基础，只是稍加微调。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;soc&#34;,&#34;abstract&#34;:&#34;&lt;p&gt;&lt;u&gt;先拂&lt;/u&gt;是Kinboise始建于2014年7月的《我的世界》基岩版（当时的PE）存档。目前，&lt;u&gt;先拂&lt;/u&gt;已成为一个城市建设服务器，有丰富的交通网以及各种自动化系统。&lt;/p&gt;\n&#34;,&#34;title&#34;:&#34;先拂矿铁&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2021-04-03 12:09:35&#34;,&#34;dateFormat&#34;:&#34;2021-04-03&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://kinboise.github.io/fruje/post/soc/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:53000,&#34;words&#34;:261,&#34;minutes&#34;:1},&#34;description&#34;:&#34;先拂是Kinboise始建于2014年7月的《我的世界》基岩版（当时的PE）存档。目前，先拂已成为一个城市建设服务器，有丰富的交通网以及各种自动化系统。\n\n前五年的辉煌\n前五年的先拂是纯铁路存档，除铁路之外再无他物。铁路直接裸露铺在地上，无...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%89%8D%E4%BA%94%E5%B9%B4%E7%9A%84%E8%BE%89%E7%85%8C\&#34;&gt;前五年的辉煌&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;blockquote&gt;\n&lt;p&gt;jehipar!.&lt;br&gt;\n欢迎🤝&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h2 id=\&#34;关于本站\&#34;&gt;🏠 关于本站&lt;/h2&gt;\n&lt;p&gt;fipo fruje a Kinbvise hafa-zugike, zilu bu hafa-zugi, bu Xef, bu Lasej-Basonja...&lt;br&gt;\n造语者&lt;u&gt;臤徘斯&lt;/u&gt;随手一写的地方，可能有关造语、《我的世界》&lt;u&gt;先拂&lt;/u&gt;、&lt;u&gt;曰坔&lt;/u&gt;架空历史……&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;about&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;关于&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2019-01-25 19:09:48&#34;,&#34;dateFormat&#34;:&#34;2019-01-25&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://kinboise.github.io/fruje/post/about/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:13000,&#34;words&#34;:53,&#34;minutes&#34;:1},&#34;description&#34;:&#34;\njehipar!.\n欢迎🤝\n\n🏠 关于本站\nfipo fruje a Kinbvise hafa-zugike, zilu bu hafa-zugi, bu Xef, bu Lasej-Basonja...\n造语者臤徘斯随手一写的地方...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99\&#34;&gt;🏠 关于本站&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;\n✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;\n&lt;!-- more --&gt;\n&lt;p&gt;&lt;a href=\&#34;https://github.com/getgridea/gridea\&#34;&gt;Github&lt;/a&gt;&lt;br&gt;\n&lt;a href=\&#34;https://gridea.dev/\&#34;&gt;Gridea 主页&lt;/a&gt;&lt;br&gt;\n&lt;a href=\&#34;http://fehey.com/\&#34;&gt;示例网站&lt;/a&gt;&lt;/p&gt;\n&lt;h2 id=\&#34;特性\&#34;&gt;特性👇&lt;/h2&gt;\n&lt;p&gt;📝  你可以使用最酷的 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，进行快速创作&lt;/p&gt;\n&lt;p&gt;🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片&lt;/p&gt;\n&lt;p&gt;🏷️  你可以对文章进行标签分组&lt;/p&gt;\n&lt;p&gt;📋  你可以自定义菜单，甚至可以创建外部链接菜单&lt;/p&gt;\n&lt;p&gt;💻  你可以在 &lt;strong&gt;Windows&lt;/strong&gt;，&lt;strong&gt;MacOS&lt;/strong&gt; 或 &lt;strong&gt;Linux&lt;/strong&gt; 设备上使用此客户端&lt;/p&gt;\n&lt;p&gt;🌎  你可以使用 &lt;strong&gt;𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌&lt;/strong&gt; 或 &lt;strong&gt;Coding Pages&lt;/strong&gt; 向世界展示，未来将支持更多平台&lt;/p&gt;\n&lt;p&gt;💬  你可以进行简单的配置，接入 &lt;a href=\&#34;https://github.com/gitalk/gitalk\&#34;&gt;Gitalk&lt;/a&gt; 或 &lt;a href=\&#34;https://github.com/SukkaW/DisqusJS\&#34;&gt;DisqusJS&lt;/a&gt; 评论系统&lt;/p&gt;\n&lt;p&gt;🇬🇧  你可以使用&lt;strong&gt;中文简体&lt;/strong&gt;或&lt;strong&gt;英语&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力&lt;/p&gt;\n&lt;p&gt;🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步&lt;/p&gt;\n&lt;p&gt;🌱 当然 &lt;strong&gt;Gridea&lt;/strong&gt; 还很年轻，有很多不足，但请相信，它会不停向前 🏃&lt;/p&gt;\n&lt;p&gt;未来，它一定会成为你离不开的伙伴&lt;/p&gt;\n&lt;p&gt;尽情发挥你的才华吧！&lt;/p&gt;\n&lt;p&gt;😘 Enjoy~&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;hello-gridea&#34;,&#34;abstract&#34;:&#34;&lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;\n✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;\n&#34;,&#34;title&#34;:&#34;Hello Gridea&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;Gridea&#34;,&#34;slug&#34;:&#34;hdPNYpkRt&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://kinboise.github.io/fruje/tag/hdPNYpkRt/&#34;}],&#34;date&#34;:&#34;2018-12-12 00:00:00&#34;,&#34;dateFormat&#34;:&#34;2018-12-12&#34;,&#34;feature&#34;:&#34;https://kinboise.github.io/fruje/post-images/hello-gridea.png&#34;,&#34;link&#34;:&#34;https://kinboise.github.io/fruje/post/hello-gridea/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:62000,&#34;words&#34;:298,&#34;minutes&#34;:2},&#34;description&#34;:&#34;👏  欢迎使用 Gridea ！\n✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...\n\nGithub\nGridea 主页\n示例网站\n特性👇\n📝  你可以使用最酷的 Markdo...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%89%B9%E6%80%A7\&#34;&gt;特性👇&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;}]";
-  // var json = escape.substr(1, escape.length - 2);
-  // var datas = json.split(',');
-  // for (let i=0; i < datas.length; i++) {
-  //   let item = datas[i];
-  //   let attrs = item.split('34;:&#34')
-  //   debugger
-  //   console.log(datas[i])
-  // }
-  let escapeMap = new Map();
-  escapeMap.set('&#34;', '"');
-  escapeMap.set('&gt;', '>');
-  escapeMap.set('&#39;', "'");
-  escapeMap.set('&lt;', '<');
-  escapeMap.set('&quot;', '"');
-  escapeMap.set('&amp;', '&');
-</script> -->
 
 
 
+
+
+
+  </body>
 </html>
