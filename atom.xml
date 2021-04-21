@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kinboise.github.io/fruje</id>
     <title>fipo fruje a Kinbvise | 臤徘斯随笔一写</title>
-    <updated>2021-04-19T12:02:30.871Z</updated>
+    <updated>2021-04-21T03:05:54.721Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kinboise.github.io/fruje"/>
     <link rel="self" href="https://kinboise.github.io/fruje/atom.xml"/>
@@ -10,6 +10,423 @@
     <logo>https://kinboise.github.io/fruje/images/avatar.png</logo>
     <icon>https://kinboise.github.io/fruje/favicon.ico</icon>
     <rights>All rights reserved 2021, fipo fruje a Kinbvise | 臤徘斯随笔一写</rights>
+    <entry>
+        <title type="html"><![CDATA[Tcèngili 成義利語]]></title>
+        <id>https://kinboise.github.io/fruje/post/cenqili/</id>
+        <link href="https://kinboise.github.io/fruje/post/cenqili/">
+        </link>
+        <updated>2021-04-20T23:33:10.000Z</updated>
+        <content type="html"><![CDATA[<p><ul class="markdownIt-TOC">
+<li><a href="#tc%C3%A8ngili-%E6%88%90%E7%BE%A9%E5%88%A9%E8%AA%9E">Tcèngili 成義利語</a>
+<ul>
+<li><a href="#%E4%B8%80-%E7%B0%A1%E4%BB%8B">一、簡介</a></li>
+<li><a href="#%E4%BA%8C-%E9%9F%B3%E7%B3%BB%E5%92%8C%E6%AD%A3%E5%AD%97%E6%B3%95">二、音系和正字法</a>
+<ul>
+<li><a href="#%E8%BC%94%E9%9F%B3">輔音</a></li>
+<li><a href="#%E5%85%83%E9%9F%B3">元音</a></li>
+<li><a href="#%E9%87%8D%E9%9F%B3-%E8%81%B2%E8%AA%BF">重音、聲調</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%89-%E8%A9%9E%E6%B3%95">三、詞法</a>
+<ul>
+<li><a href="#%E4%BB%A3%E8%A9%9E">代詞</a></li>
+<li><a href="#%E5%90%8D%E8%A9%9E">名詞</a></li>
+<li><a href="#%E5%8B%95%E8%A9%9E">動詞</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9B%9B-%E5%8F%A5%E6%B3%95">四、句法</a>
+<ul>
+<li><a href="#%E8%AA%9E%E5%BA%8F">語序</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</p>
+<h1 id="tcèngili-成義利語">Tcèngili 成義利語</h1>
+<p>Kinboise 九金煞烏蒙</p>
+<!---more--->
+<h2 id="一-簡介">一、簡介</h2>
+<h2 id="二-音系和正字法">二、音系和正字法</h2>
+<p>未標註者正字法同國際音標。高亮的音位鮮少出現在固有詞中。</p>
+<h3 id="輔音">輔音</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">脣</th>
+<th style="text-align:center">齒齦</th>
+<th style="text-align:center">齦後/硬齶</th>
+<th style="text-align:center">軟齶/小舌</th>
+<th style="text-align:center">聲門</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>鼻音</strong></td>
+<td style="text-align:center">m</td>
+<td style="text-align:center">n</td>
+<td style="text-align:center">ɲ⟨nj⟩</td>
+<td style="text-align:center">ŋ⟨ng⟩</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td><strong>塞音</strong></td>
+<td style="text-align:center">p b</td>
+<td style="text-align:center">t d</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">k* ɡ*</td>
+<td style="text-align:center">(ʔ)⟨k/q⟩*</td>
+</tr>
+<tr>
+<td><strong>塞擦音</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">t͡͡s* d͡͡z*</td>
+<td style="text-align:center">t͡͡ʃ⟨tc⟩ d͡͡ʒ⟨dg⟩</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td><strong>擦音</strong></td>
+<td style="text-align:center"><mark>f</mark> <mark>v</mark></td>
+<td style="text-align:center">s z</td>
+<td style="text-align:center"><mark>ʃ⟨sj⟩</mark> <mark>ʒ⟨zj⟩</mark></td>
+<td style="text-align:center">χ⟨ch⟩ ʁ⟨gh⟩</td>
+<td style="text-align:center">h</td>
+</tr>
+<tr>
+<td><strong>邊音</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">ɬ⟨x⟩ l</td>
+<td style="text-align:center">ʎ⟨lj⟩</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td><strong>閃/近音</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">ɾ⟨r⟩</td>
+<td style="text-align:center">j</td>
+<td style="text-align:center">w</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>塞音及塞擦音不送氣。</p>
+<p>/t͡͡ʃ, d͡͡ʒ, ʃ, ʒ/可能是[t͡͡ʃ~c, d͡͡ʒ~ɟ, ʃ~ɕ, ʒ~ʑ]。</p>
+<p>加'*'的音位的拼法如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">k</th>
+<th style="text-align:center">ɡ</th>
+<th style="text-align:center">t͡͡s</th>
+<th style="text-align:center">d͡͡z</th>
+<th style="text-align:center">ʔ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">非⟨i, e, y⟩前</td>
+<td style="text-align:center">c</td>
+<td style="text-align:center">g</td>
+<td style="text-align:center">ts</td>
+<td style="text-align:center">dz</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">⟨i, e, y⟩前</td>
+<td style="text-align:center">k</td>
+<td style="text-align:center">q</td>
+<td style="text-align:center">c</td>
+<td style="text-align:center">g</td>
+<td style="text-align:center">-</td>
+</tr>
+<tr>
+<td style="text-align:center">輔音前或詞末</td>
+<td style="text-align:center">c</td>
+<td style="text-align:center">g</td>
+<td style="text-align:center">ts</td>
+<td style="text-align:center">dz</td>
+<td style="text-align:center">k/q(見下)</td>
+</tr>
+</tbody>
+</table>
+<p>此外，/tk, dɡ/總是拼作⟨tk, dq⟩以示與/t͡͡ʃ d͡͡ʒ/的區別。</p>
+<h3 id="元音">元音</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">前</th>
+<th style="text-align:center">次前</th>
+<th style="text-align:center">央</th>
+<th style="text-align:center">次後</th>
+<th style="text-align:center">後</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>閉</strong></td>
+<td style="text-align:center">i⟨y⟩</td>
+<td style="text-align:center">ɪ⟨i⟩</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">ʊ⟨o⟩</td>
+<td style="text-align:center">u⟨u⟩</td>
+</tr>
+<tr>
+<td><strong>中</strong></td>
+<td style="text-align:center"><mark>ɛ⟨è⟩</mark></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">ə⟨e⟩</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><mark>ɔ⟨ò⟩</mark></td>
+</tr>
+<tr>
+<td><strong>開</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">a⟨a⟩</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>/ə/不會出現在重讀音節及其後。</p>
+<p>/a/在重讀音節後音值爲[ɐ]。有的語言學家將[ɐ]分析爲/ə/而非/a/的變體。</p>
+<p>⟨è, ò⟩上的抑音符常常省去。</p>
+<h3 id="重音-聲調">重音、聲調</h3>
+<p>成義利語每個單詞有一個重讀音節，正字法中一般不標識，必要時用銳音符⟨ˊ⟩標識。</p>
+<p>音節可以有兩個聲調：高、低；音節可分爲帶喉塞尾/ʔ/和不帶喉塞尾兩種。帶喉塞尾的音節的聲調有音位性，不帶喉塞尾的音節則沒有。</p>
+<p>對無帶喉塞尾音節的單詞，重讀音節及以前爲高調，重讀音節以後爲低調。有喉塞尾的音節的聲調則是固定的，不受位置影響；正字法中⟨-k⟩表示高調帶喉塞尾，⟨-q⟩表示低調帶喉塞尾。</p>
+<p>如今較新的口音中不區別是否重音，僅區別聲調。</p>
+<hr>
+<p>以下是一些示例：</p>
+<table>
+<thead>
+<tr>
+<th>拼寫</th>
+<th>音位</th>
+<th>音值</th>
+<th>詞義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>secalah</td>
+<td>/səˈkaləh/</td>
+<td>[sə́.ˈká.lɐ̀h]</td>
+<td>歌曲</td>
+</tr>
+<tr>
+<td>miqtik</td>
+<td>/ˈmɪ̀ʔtɪʔ/</td>
+<td>[ˈmɪ̀ʔ.tɪ́ʔ]</td>
+<td>喫</td>
+</tr>
+<tr>
+<td>dangsah</td>
+<td>/ˈdaŋsəh/</td>
+<td>[ˈdáŋ.sɐ̀h]</td>
+<td>飯</td>
+</tr>
+<tr>
+<td>roghu</td>
+<td>/ɾʊˈʁu/</td>
+<td>[ɾʊ́ˈʁú]</td>
+<td>杯子</td>
+</tr>
+<tr>
+<td>keqros</td>
+<td>/kə̀ʔˈɾʊs/</td>
+<td>[kə̀ʔ.ɾʊ́s]</td>
+<td>氣</td>
+</tr>
+<tr>
+<td>creacion(crèatsjôn)</td>
+<td>/kɾɛ.aˈt͡͡sjɔn/</td>
+<td>[kɾɛ̀.ʔà.ˈt͡͡sjɔ́n]~[kɾɪ̀.ʔà.ˈt͡͡sjɔ́n]</td>
+<td>創造</td>
+</tr>
+<tr>
+<td>kybòd</td>
+<td>/ˈkibɔd/</td>
+<td>[ˈkí.bɔ̀d]~[ˈkí.bʊ̀t]</td>
+<td>鍵盤</td>
+</tr>
+</tbody>
+</table>
+<h2 id="三-詞法">三、詞法</h2>
+<h3 id="代詞">代詞</h3>
+<p>成義利語有助詞型代詞（主要爲固有來源）和名詞型代詞（主要爲借詞）。</p>
+<table>
+<thead>
+<tr>
+<th>名詞</th>
+<th>一</th>
+<th>謙</th>
+<th>兼</th>
+<th>二</th>
+<th>敬</th>
+<th>三</th>
+<th>敬</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>單數</td>
+<td>cawa</td>
+<td>lepang</td>
+<td></td>
+<td>sewy</td>
+<td>sjuro/asjuro</td>
+<td>gong</td>
+<td>duci</td>
+</tr>
+<tr>
+<td>複數</td>
+<td>njing/anjing</td>
+<td>kecol</td>
+<td>jadak</td>
+<td>seming</td>
+<td>asjuro</td>
+<td>bojak</td>
+<td>aduci</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>助詞</th>
+<th>一</th>
+<th>兼</th>
+<th>二</th>
+<th>三</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>單數</td>
+<td>cho</td>
+<td></td>
+<td>no</td>
+<td>gi</td>
+</tr>
+<tr>
+<td>複數</td>
+<td>cha</td>
+<td>do</td>
+<td>xu</td>
+<td>lja</td>
+</tr>
+</tbody>
+</table>
+<h3 id="名詞">名詞</h3>
+<p>名詞沒有性、格的變化。數通常藉由代詞體現。部分名詞有複數形式，多由音節重疊形成。如：</p>
+<table>
+<thead>
+<tr>
+<th>單數</th>
+<th>複數</th>
+<th>釋義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bat</td>
+<td>bebat</td>
+<td>天，日</td>
+</tr>
+<tr>
+<td>agong(&lt;gong)</td>
+<td>gonggong</td>
+<td>人</td>
+</tr>
+<tr>
+<td>pin</td>
+<td>pimbin</td>
+<td>門</td>
+</tr>
+<tr>
+<td>ketiwing</td>
+<td>tcetiwing(&lt;ketcetiwing)</td>
+<td>藥</td>
+</tr>
+<tr>
+<td>peqryc</td>
+<td>ljoryc</td>
+<td>山</td>
+</tr>
+</tbody>
+</table>
+<h3 id="動詞">動詞</h3>
+<p>動詞沒有變位。</p>
+<h2 id="四-句法">四、句法</h2>
+<h3 id="語序">語序</h3>
+<p>成義利語的底層語序是VSO。</p>
+<table>
+<thead>
+<tr>
+<th>Miqtik</th>
+<th>cho</th>
+<th>dangsah.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>喫</td>
+<td>1sg</td>
+<td>飯</td>
+</tr>
+</tbody>
+</table>
+<p><em>我喫飯。</em></p>
+<p>但由於只有助詞型代詞可以占據主語S的位置，且採用主題優先語序，因此實際句子呈現SVO。</p>
+<table>
+<thead>
+<tr>
+<th>Gutaf</th>
+<th>senjat</th>
+<th>lja</th>
+<th>mygih.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>狗</td>
+<td>被追</td>
+<td>3pl</td>
+<td>貓</td>
+</tr>
+</tbody>
+</table>
+<p><em>狗（複數）被貓追。</em></p>
+<p>助詞型代詞可以和名詞重疊。</p>
+<table>
+<thead>
+<tr>
+<th>Mygih</th>
+<th>njonjat</th>
+<th>gi</th>
+<th>lja</th>
+<th>gutaf.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>貓</td>
+<td>追</td>
+<td>3sg</td>
+<td>3pl</td>
+<td>狗</td>
+</tr>
+</tbody>
+</table>
+<p><em>貓追狗（複數）。</em></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[利孝王本紀]]></title>
         <id>https://kinboise.github.io/fruje/post/li-xiao-wang-ben-ji/</id>
@@ -22,7 +439,7 @@
         <content type="html"><![CDATA[<p><u>孝王</u>名<u>德</u>字<u>央</u>，<u>文王</u>長子也。</p>
 <p><u>惠王</u>六年，<u>文王</u>崩，<u>孝王</u>立爲太子。</p>
 <!-- more -->
-<p><u>惠王</u>十七年而崩，適<u>王子鉤</u>及<u>泛公</u>之亂，<u>孝王</u>以<u>杉公</u>並<u>王子奎</u>靖之。</p>
+<p><u>惠王</u>十七年而崩，孝王即位。適<u>王子鉤</u>及<u>泛公</u>之亂，<u>孝王</u>以<u>杉公</u>並<u>王子奎</u>靖之。</p>
 <p>既而欲伐<u>泛公</u>。丞相<u>省標</u>諫曰：「不可。<u>泛公</u>入能撫其民，出能平戎狄；雖敗於王，其力未削。」元帥<u>衍欽</u>曰：「<u>泛公</u>不臣，私合諸侯、戎狄數犯我；不伐之，王不威。」從<u>欽</u>。<u>標</u>諫曰：「王之伐<u>泛公</u>，諸侯必不從。使王克之，王師將大傷；不克，是速禍也。」弗聽。</p>
 <p>遂使<u>衍欽</u>將中軍，<u>葡甚</u>將左軍，<u>乘梳</u>將右軍，以王師五萬伐<u>徊</u>。王令<u>杉公</u>、<u>陣公</u>共伐之。<u>杉公</u>稱疾不出，<u>陣公</u>使<u>乘漆</u>將戍師五千從王師。王不說，曰：「及<u>徊</u>下，且還討之。」</p>
 <p>王師軍於<u>崑嶺</u>。<u>泛公</u>使謂<u>欽</u>曰：「將軍之士辱來敝邑，敝邑無以遊賞，不若早歸京師。若後歸，深冬雨雪，君其難越<u>斐山</u>。」<u>欽</u>怒，扣留其使。</p>
