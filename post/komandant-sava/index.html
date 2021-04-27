@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>架空 | fipo fruje a Kinbvise | 臤徘斯随笔一写</title>
+<title>Командант Сава | fipo fruje a Kinbvise | 臤徘斯随笔一写</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,32 @@
 <link rel="stylesheet" href="https://kinboise.github.io/fruje/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="&#34;Kinboise&#34; hafa-zugike">
+    <meta name="description" content="
+Скраја босно и мора, 
+Skraja bosno i mora,
+
+
+
+зна га земља сва
+zna ga zemlja sva
+
+
+
+свуд се славом прочуо
+svud se slavo..." />
+    <meta name="keywords" content="塞克语,歌词" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,47 +107,63 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="current-tag">标签: 架空</h2>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://kinboise.github.io/fruje/post/li-xiao-wang-ben-ji/">
-                  <h2 class="post-title">利孝王本紀</h2>
-                </a>
-                <div class="post-date">
-                  2021-04-19
-                </div>
-                <div class="post-abstract">
-                  <p><u>孝王</u>名<u>德</u>字<u>央</u>，<u>文王</u>長子也。</p>
-<p><u>惠王</u>六年，<u>文王</u>崩，<u>孝王</u>立爲太子。</p>
-
-                </div>
+          <div class="post-detail">
+            <h2 class="post-title">Командант Сава</h2>
+            <div class="post-date">2021-04-27</div>
+            
+              <div class="feature-container" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e1/Savo_Kova%C4%8Devi%C4%87.jpg')">
               </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://kinboise.github.io/fruje/post/li-hui-wang-ben-ji/">
-                  <h2 class="post-title">利惠王本紀</h2>
-                </a>
-                <div class="post-date">
-                  2021-04-19
-                </div>
-                <div class="post-abstract">
-                  <p><u>惠王</u>名<u>刈</u>字<u>青</u>，<u>武王</u>次子、<u>文王</u>弟也。</p>
-<p><u>武王</u>諸子皆少從征。以<u>文王</u>年長，使將右軍；餘子咸置於行伍，謂曰：「汝，卒也，不可以公子居。」王從右軍，<u>公子鉤</u>從中軍，<u>公子奎</u>、<u>公子巒</u>從左軍。</p>
+            
+            <div class="post-content" v-pre>
+              <span lang='sr'>
+Скраја босно и мора, 
+<p>Skraja bosno i mora,<br>
+</span></p>
+<hr>
+<span lang='sr'>
+зна га земља сва
+<p>zna ga zemlja sva<br>
+</span></p>
+<hr>
+<span lang='sr'>
+свуд се славом прочуо
+<p>svud se slavom pročuo<br>
+</span></p>
 
-                </div>
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://kinboise.github.io/fruje/tag/xq07-tNPR/" class="tag">
+                    塞克语
+                  </a>
+                
+                  <a href="https://kinboise.github.io/fruje/tag/PYhQXXW3k/" class="tag">
+                    歌词
+                  </a>
+                
               </div>
-              
-            </article>
-          
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://kinboise.github.io/fruje/post/su-marxalo-tito/">
+                  <h3 class="post-title">
+                    su marxalo Tito
+                  </h3>
+                </a>
+              </div>
+            
 
-          <div class="pagination-container">
-  
-  
-</div>
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -149,6 +184,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '431eeec260ac03ffc1ce',
+        clientSecret: 'b1507e3f9265df6b42bf6b14d55c777f69aaa6bf',
+        repo: 'kinboise.github.io',
+        owner: 'Kinboise',
+        admin: ['Kinboise'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
