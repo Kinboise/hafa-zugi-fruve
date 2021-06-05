@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kinboise.github.io/fruje</id>
     <title>fipo fruje a Kinbvise | 臤徘斯随笔一写</title>
-    <updated>2021-06-05T04:50:43.694Z</updated>
+    <updated>2021-06-05T04:53:34.738Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kinboise.github.io/fruje"/>
     <link rel="self" href="https://kinboise.github.io/fruje/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="https://kinboise.github.io/fruje/post/hafirese-a-bavel/">
         </link>
         <updated>2021-06-05T04:43:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>but vu sume visu zeme samo i hafa jen, e hefe kize hef.</p>
+]]></summary>
         <content type="html"><![CDATA[<p>but vu sume visu zeme samo i hafa jen, e hefe kize hef.</p>
+<!-- more -->
 <p>bi rar, u Xinqar e nitife lik, ja ve dom.</p>
 <p>fat i linen ku bate: &quot;sip! e kaho o hor o pojiz.&quot; goge e kaho kubit, jola e zidinire.</p>
 <p>fat: &quot;sip! f mun zug e zevo e lubove ga bibe ku nebo, f mun e pleme zug, jo no men sec visu zemen.&quot;</p>
@@ -33,7 +36,10 @@
         <link href="https://kinboise.github.io/fruje/post/fofibura-su-nito/">
         </link>
         <updated>2021-06-05T04:42:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>fofibura su nito fet ci ju gice, bi line u tepe rupe rupit. lin cur ke ju gice gi he vi line e tepe sa natap. fofibura s visu gico bur, mo ju bur, vi line se ju cadu fic u tepe, jun kasu fofibura e soci foc. ja nito rupu pos, meku vi line e tepe sa natap. jo fofibura cas curi ke nito ju gice k lu.</p>
+]]></summary>
         <content type="html"><![CDATA[<p>fofibura su nito fet ci ju gice, bi line u tepe rupe rupit. lin cur ke ju gice gi he vi line e tepe sa natap. fofibura s visu gico bur, mo ju bur, vi line se ju cadu fic u tepe, jun kasu fofibura e soci foc. ja nito rupu pos, meku vi line e tepe sa natap. jo fofibura cas curi ke nito ju gice k lu.</p>
+<!-- more -->
 ]]></content>
     </entry>
     <entry>
@@ -42,7 +48,10 @@
         <link href="https://kinboise.github.io/fruje/post/jane-so-kable-hafirese-a-xlajher/">
         </link>
         <updated>2021-06-05T04:38:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>u vene i jane s nu lute en kable sur, i jen e kiha taze his, i jen e fice bore nas, fene e line meku nas.</p>
+]]></summary>
         <content type="html"><![CDATA[<p>u vene i jane s nu lute en kable sur, i jen e kiha taze his, i jen e fice bore nas, fene e line meku nas.</p>
+<!-- more -->
 <p>haf li jane vun kable: &quot;zase ma pege bi mi sur ke line en kable hes.&quot;</p>
 <p>haf vin kable: &quot;cit! ti jane, zase man pege bi min sur ke line lope zu lute a jane f su e tepe rupe zug, jo jane ne lute mep.&quot;</p>
 <p>de po cit, li jane se dal fu diva.</p>
@@ -54,7 +63,10 @@
         <link href="https://kinboise.github.io/fruje/post/unifik-keh-ghruek/">
         </link>
         <updated>2021-05-22T12:20:20.000Z</updated>
+        <summary type="html"><![CDATA[<p>本项目将Kinboise较为优秀的人造文字编码至Unicode私人使用区（PUA）。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>本项目将Kinboise较为优秀的人造文字编码至Unicode私人使用区（PUA）。</p>
+<!-- more -->
 <p>之前的方式一直是用人造文字覆盖已编码的自然文字（一般是拉丁字母）。重新编码可以增强系统性、方便管理，也可以更加便利地与其他文字混排。</p>
 <p>项目名称「unifik」来自Unicode + nifik（立：新），若无更佳想法将作为正式字体名称。</p>
 <h2 id="确定码位">确定码位</h2>
