@@ -1,109 +1,120 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>造语草稿：Тояң | fipo fruje a Kinbvise | 臤徘斯随笔一写</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://kinboise.github.io/fruje/favicon.ico?v=1622868811242">
+<meta name="description" content=""Kinboise" hafa-zugike" />
+<link rel="shortcut icon" href="https://kinboise.github.io/fruje/favicon.ico">
 <link rel="stylesheet" href="https://kinboise.github.io/fruje/styles/main.css">
 
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
+<script src="https://kinboise.github.io/fruje/media/js/jquery.min.js"></script>
+<script src="https://kinboise.github.io/fruje/media/js/masonry.pkgd.min.js"></script>
+<script src="https://kinboise.github.io/fruje/media/js/aos.js"></script>
+<script src="https://kinboise.github.io/fruje/media/js/pace.min.js"></script>
+<script src="https://kinboise.github.io/fruje/media/js/view-image.min.js"></script>
+<script src="https://kinboise.github.io/fruje/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://kinboise.github.io/fruje/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
     <meta name="description" content="來點突厥——噫，咋黏上就下不來了？
 咽化輔音⟶歷史音變元音和諧黏著⟶歷史音變屈折咽化輔音\stackrel{歷史音變}{\longrightarrow}元音和諧\\
 黏著\stackrel{歷史音變}{\longrightarrow}屈折
 ..." />
     <meta name="keywords" content="造语" />
+    <script src="https://kinboise.github.io/fruje/media/js/waterfall.min.js"></script>
+    <script src="https://kinboise.github.io/fruje/media/js/prism.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://kinboise.github.io/fruje"><img src="" alt=""></a>
+            </div>
+            <!-- start: .main-nav -->
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://kinboise.github.io/fruje">
-        <img src="https://kinboise.github.io/fruje/images/avatar.png?v=1622868811242" class="site-logo">
-        <h1 class="site-title">fipo fruje a Kinbvise | 臤徘斯随笔一写</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://kinboise.github.io/fruje" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/" class="menu">
+                      返回首页
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/fruje/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/fruje/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/fruje/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1622871282077" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            返回首页
-          </a>
-        
-      
-        
-          <a href="/fruje/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/fruje/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/fruje/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      "Kinboise" hafa-zugike
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://kinboise.github.io/fruje/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
 
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">造语草稿：Тояң</h2>
-            <div class="post-date">2021-05-01</div>
-            
-            <div class="post-content" v-pre>
-              <p>來點<u>突厥</u>——噫，咋黏上就下不來了？</p>
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2021-05-01"><i class="fa fa-calendar"></i><span class="lately">1 个月前</span></time>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://kinboise.github.io/fruje/tag/sXG0rPNvW/" class="ctag ctag-0 ctag-sXG0rPNvW" aria-label="">造语</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">造语草稿：Тояң</h1>
+            </div>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>來點<u>突厥</u>——噫，咋黏上就下不來了？</p>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">咽</mi><mi mathvariant="normal">化</mi><mi mathvariant="normal">輔</mi><mi mathvariant="normal">音</mi><mover><mo><mo>⟶</mo></mo><mrow><mi mathvariant="normal">歷</mi><mi mathvariant="normal">史</mi><mi mathvariant="normal">音</mi><mi mathvariant="normal">變</mi></mrow></mover><mi mathvariant="normal">元</mi><mi mathvariant="normal">音</mi><mi mathvariant="normal">和</mi><mi mathvariant="normal">諧</mi><mspace linebreak="newline"></mspace><mi mathvariant="normal">黏</mi><mi mathvariant="normal">著</mi><mover><mo><mo>⟶</mo></mo><mrow><mi mathvariant="normal">歷</mi><mi mathvariant="normal">史</mi><mi mathvariant="normal">音</mi><mi mathvariant="normal">變</mi></mrow></mover><mi mathvariant="normal">屈</mi><mi mathvariant="normal">折</mi></mrow><annotation encoding="application/x-tex">咽化輔音\stackrel{歷史音變}{\longrightarrow}元音和諧\\
 黏著\stackrel{歷史音變}{\longrightarrow}屈折
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8220000000000001em;vertical-align:-0.011em;"></span><span class="mord cjk_fallback">咽</span><span class="mord cjk_fallback">化</span><span class="mord cjk_fallback">輔</span><span class="mord cjk_fallback">音</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.811em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop">⟶</span></span></span><span style="top:-3.7110000000000003em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">歷</span><span class="mord cjk_fallback mtight">史</span><span class="mord cjk_fallback mtight">音</span><span class="mord cjk_fallback mtight">變</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.011em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">元</span><span class="mord cjk_fallback">音</span><span class="mord cjk_fallback">和</span><span class="mord cjk_fallback">諧</span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:0.8220000000000001em;vertical-align:-0.011em;"></span><span class="mord cjk_fallback">黏</span><span class="mord cjk_fallback">著</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.811em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop">⟶</span></span></span><span style="top:-3.7110000000000003em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">歷</span><span class="mord cjk_fallback mtight">史</span><span class="mord cjk_fallback mtight">音</span><span class="mord cjk_fallback mtight">變</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.011em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">屈</span><span class="mord cjk_fallback">折</span></span></span></span></span></p>
@@ -158,82 +169,230 @@ pas'att'uŋ&gt;pɑsɑttuŋ&gt;pɑɾɑtuŋ&gt;pɑɾtuŋ партуң<br>
 naga&gt;naa&gt;næː&gt;ne не</p>
 <p>не парат пәр</p>
 
-            </div>
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://kinboise.github.io/fruje/media/images/sXG0rPNvW.jpg');"></div>
+                 <a href="https://kinboise.github.io/fruje/post/unifik-keh-ghruek/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2021-05-22">2021-05-22</time>
+                  <h4 class="title white no-margin">unifik计划</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://kinboise.github.io/fruje/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://z3.ax1x.com/2021/04/26/gpGDTf.png');"></div>
+                 <a href="https://kinboise.github.io/fruje/post/su-marxalo-tito/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2021-04-26">2021-04-26</time>
+                  <h4 class="title white no-margin">su marxalo Tito</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://kinboise.github.io/fruje/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
             
-              <div class="tag-container">
+              <div id="comments" class="bg-white hosted ">
                 
-                  <a href="https://kinboise.github.io/fruje/tag/sXG0rPNvW/" class="tag">
-                    造语
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://kinboise.github.io/fruje/post/su-marxalo-tito/">
-                  <h3 class="post-title">
-                    su marxalo Tito
-                  </h3>
-                </a>
-              </div>
-            
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
+<div id="gitalk-container"></div>
+<div class="clear"></div>
 
-              
-            
+<script>
+  var gitalk = new Gitalk({
+    clientID: '431eeec260ac03ffc1ce',
+    clientSecret: 'b1507e3f9265df6b42bf6b14d55c777f69aaa6bf',
+    repo: 'kinboise.github.io',
+    owner: 'Kinboise',
+    admin: ['Kinboise'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
 
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+  gitalk.render('gitalk-container')
 </script>
 
+                
+                
+              </div>
+            
 
+            </div>
+          </div>
+      </main>
 
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://kinboise.github.io/fruje/post/hafirese-a-bavel/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-06-05">2021-06-05</time>
+                      <h4 class="title usmall">
+                        <a href="https://kinboise.github.io/fruje/post/hafirese-a-bavel/">hafirese a Bavél</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://kinboise.github.io/fruje/post/fofibura-su-nito/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-06-05">2021-06-05</time>
+                      <h4 class="title usmall">
+                        <a href="https://kinboise.github.io/fruje/post/fofibura-su-nito/">fofibura su nito</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://kinboise.github.io/fruje/post/jane-so-kable-hafirese-a-xlajher/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-06-05">2021-06-05</time>
+                      <h4 class="title usmall">
+                        <a href="https://kinboise.github.io/fruje/post/jane-so-kable-hafirese-a-xlajher/">jane so kable (hafirese a Xlajher)</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
 
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://kinboise.github.io/fruje/tag/boNMDOJYD/" class="ctag ctag-0 ctag-boNMDOJYD" aria-label="">帜和语</a>
+                    
+                      <a href="https://kinboise.github.io/fruje/tag/sXG0rPNvW/" class="ctag ctag-1 ctag-sXG0rPNvW" aria-label="">造语</a>
+                    
+                      <a href="https://kinboise.github.io/fruje/tag/PYhQXXW3k/" class="ctag ctag-2 ctag-PYhQXXW3k" aria-label="">歌词</a>
+                    
+                      <a href="https://kinboise.github.io/fruje/tag/X_V-V48_v/" class="ctag ctag-3 ctag-X_V-V48_v" aria-label="">先拂</a>
+                    
+                      <a href="https://kinboise.github.io/fruje/tag/krahkhung/" class="ctag ctag-4 ctag-krahkhung" aria-label="">架空</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://kinboise.github.io/fruje/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">fipo fruje a Kinbvise | 臤徘斯随笔一写</a></h4>
+                    <p class="founder">&#34;Kinboise&#34; hafa-zugike</p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
 
-      var gitalk = new Gitalk({
-        clientID: '431eeec260ac03ffc1ce',
-        clientSecret: 'b1507e3f9265df6b42bf6b14d55c777f69aaa6bf',
-        repo: 'kinboise.github.io',
-        owner: 'Kinboise',
-        admin: ['Kinboise'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+            </div>
+            <div class="clear"></div>
+        </div>
 
-      gitalk.render('gitalk-container')
+        <div class="logo">
+          <a href="https://kinboise.github.io/fruje"><img src="" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 14 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
 
-    </script>
-  
+        
 
-  
+      
+    <script src="https://kinboise.github.io/fruje/media/js/functions-post.js"></script>
 
-
-
-
+    </div>
+    <!-- end: #wrapper -->
   </body>
 </html>
