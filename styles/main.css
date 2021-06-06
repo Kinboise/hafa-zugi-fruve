@@ -1569,7 +1569,7 @@ a:hover {
 }
 .text {
   padding: 20px;
-  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', 'source-han-serif-sc', 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif;
+  font-family: 'Source Serif Pro', 'Georgia', '思源宋体 SC', 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', 'source-han-serif-sc', 'PT Serif', 'SongTi SC', 'Times New Roman', serif;
 }
 .text p,
 .text ul {
@@ -1581,7 +1581,7 @@ a:hover {
 .text h4,
 .text h5,
 .text h6 {
-  font-family: "宋体", 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', 'source-han-serif-sc', 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif;
+  font-family: 'Source Serif Pro', 'Georgia', '思源宋体 SC', "宋体", 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', 'source-han-serif-sc', 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif;
   font-weight: 1000;
 }
 .markdownIt-TOC {
